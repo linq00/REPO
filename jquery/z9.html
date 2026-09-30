@@ -43,8 +43,8 @@ $("#hello").click(function(){
 
     let imie =  $("#imie").val();
 let wyn = $("#wynik");
-if(imie){  
-    wyn.text("hello".imie)
+if(imie!=""){  
+    wyn.text("hello"+imie)
 }else{
       wyn.text("podaj imie")
 }
